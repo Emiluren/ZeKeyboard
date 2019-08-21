@@ -54,17 +54,17 @@ namespace Ze {
         //******************************************
         
         {
-            Key(KEY_FN, 2, 0),
+            Key(KEY_CTRL, 2, 0),
             Key(KEY_A, 2, 1),
             Key(KEY_S, 2, 2),
             Key(KEY_D, 2, 3), 
             Key(KEY_F, 2, 4), 
             Key(KEY_G, 2, 5), 
-            Key(KEY_H, KEY_LEFT, 2, 6),
-            Key(KEY_J, KEY_DOWN, 2, 7),
-            Key(KEY_K, KEY_UP, 2, 8),
-            Key(KEY_L, KEY_RIGHT, 2, 9),
-            Key(KEY_SEMICOLON, 2, 10),
+            Key(KEY_H, 2, 6),
+            Key(KEY_J, KEY_LEFT, 2, 7),
+            Key(KEY_K, KEY_DOWN, 2, 8),
+            Key(KEY_L, KEY_UP, 2, 9),
+            Key(KEY_SEMICOLON, KEY_RIGHT, 2, 10),
             Key(KEY_QUOTE, 2, 11),
             Key(), // dummy
             Key(KEY_ENTER, 2, 13)
@@ -96,7 +96,7 @@ namespace Ze {
         //******************************************
         
         {
-            Key(KEY_CTRL, 4, 0),
+            Key(KEY_FN, 4, 0),
             Key(KEY_SUPER, 4, 1),
             Key(KEY_ALT, 4, 2),
             Key(), // dummy
