@@ -30,7 +30,7 @@ namespace Ze {
     const int KEY_INC_BRIGHTNESS = KEY_RSHIFT;
 
     // Keycode for changing the backlight style
-    const int KEY_BACKLIGHT_STYLE = KEY_CTRL;
+    const int KEY_BACKLIGHT_STYLE = KEY_ALT;
 #else
     // Keycode for changing the backlight brightness
     const int KEY_INC_BRIGHTNESS = -100;
