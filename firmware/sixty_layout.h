@@ -25,7 +25,7 @@ namespace Ze {
             Key(KEY_0, KEY_F10, 0, 10), 
             Key(KEY_MINUS, 0, 11), 
             Key(KEY_EQUAL, 0, 12),
-            Key(KEY_BACKSPACE, 0, 13)
+            Key(KEY_BACKSPACE, KEY_DELETE, 0, 13)
         },
 
         //******************************************
